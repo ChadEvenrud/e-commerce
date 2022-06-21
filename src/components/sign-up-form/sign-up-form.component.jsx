@@ -23,6 +23,7 @@ const SignUpForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   //Destructuring the formFields (user defined variable) from the hook variable
   const { displayName, email, password, confirmPassword } = formFields;
+
   //setFormFields method from the useState that takes in an object to update the state fields
   const resetFormFields = () => {
     setFormFields(defaultFormFields);

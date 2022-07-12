@@ -1,6 +1,9 @@
 .categories-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    .title {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
 }
